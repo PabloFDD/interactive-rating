@@ -1,0 +1,62 @@
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(213, 19%, 18%);
+    width: 450px;
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 30px;
+}
+
+
+.box-circle{
+    margin: 40px 0 40px 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:hsl(216, 12%, 8%);
+    background-image: url(/images/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.box-title{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.box-paragraph{
+    font-size: 15px;
+    margin: 0 70px 50px 30px;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating1, .rating2, .rating3, .rating4, .rating5{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

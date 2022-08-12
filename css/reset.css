@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: hsl(216, 12%, 8%);
+}
